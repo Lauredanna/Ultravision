@@ -14,7 +14,6 @@ p, li, textarea, label, input, select {
 }
 
 .header-title {
-  width: 606px;
   height: 123px;
   font-family: Poppins;
   font-size: 88px;
@@ -25,20 +24,18 @@ p, li, textarea, label, input, select {
 
 
 .header-title {
-  width: 1440px;
   height: 128px;
   margin: 8px 0;
-  padding: 6px 478px 5px;
+  padding: 6px 10px 5px;
   opacity: 0.81;
   background-color: #fcce00;
 
   }
 
   .header-subtitle {
-    width: 1440px;
   height: 64px;
   margin: 8px 0;
-  padding: 6px 478px 5px;
+  padding: 6px 10px 5px;
   opacity: 0.81;
   background-color: #ff6b00;
   color: #FDFEFE;
@@ -52,14 +49,12 @@ p, li, textarea, label, input, select {
   height: 32px;
   background-color: #e02020bd;
   margin: 8px 0 0;
-  width: 1440px;
 }
 
 .header-stripe--purple {
   height: 16px;
   background-color: #b620e0bd;
   margin: 8px 0 0;
-    width: 1440px;
 }
 
 
@@ -67,44 +62,73 @@ p, li, textarea, label, input, select {
   height: 8px;
   background-color: #6236ffbd;
   margin: 8px 0 0;
-    width: 1440px;
 }
 
 .sub-title {
   text-align: center;
   color: #231f20;
-  width: 993px;
- height: 56px;
- margin: 64px 216px 64px 229px;
+ margin: 64px 10px 64px 10px;
  font-family: Poppins;
  font-size: 40px;
   font-weight: 900;
 }
 
 .colonne1{
-column-count: 2;
--moz-column-count: 2;
--webkit-column-count: 2;
-float: left;
-width: 900px;
+text-align: left;
+ margin: 34px 31px 30px 0;
+ font-size: 16px;
+}
+
+.colonnes {
+  display: flex;
+}
+
+.colonne {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: justify;
+  color: #231f20;
+  font-family: Poppins;
+  margin: 32px 14px 32px 32px;
+  font-size: 16px;
 }
 
 .colonne2{
-text-align: right;
-float: left;
-width: auto;
+text-align: center;
+background-image:url(../img/bg-yellow.png);
+color: black;
+font-size: 16px;
+margin: 32px 14px 32px 32px;
 }
 
+
+.ordi {
+    background-image: url(../img/bg-orange.png);
+}
+.learn-more{
+   border: 1px solid black; padding: 5px;
+ color: #ffffff;
+ font-weight: bold;
+font-size: 20px;}
+
+.rouge {
+    background-image: url(../img/bg-red.png);
+}
+
+.violet {
+  background-image: url(../img/bg-violet.png);
+}
+
+.blue {
+    background-image: url(../img/bg-blue.png);
+}
 .image1 {
-  width: 487px;
-  height: 471px;
-  object-fit: contain
-  x : 943px;
-  y : 512px;
-  float: right;
+    mix-blend-mode: darken;
 }
 
-
+.colonne3 {
+background-color: white;
+}
 
 h1 {
    /* Default font, size, and margins */
@@ -118,13 +142,11 @@ h3 {
 }
 
 h4 {
-  width: 640px;
-  height: 33px;
   margin: 0 31px 34px 0;
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
-  text-align: center; font, size,
+  text-align: center;
 }
 
 h5 {
