@@ -85,7 +85,26 @@ p, li, textarea, label, input, select {
 column-count: 2;
 -moz-column-count: 2;
 -webkit-column-count: 2;
+float: left;
+width: 900px;
 }
+
+.colonne2{
+text-align: right;
+float: left;
+width: auto;
+}
+
+.image1 {
+  width: 487px;
+  height: 471px;
+  object-fit: contain
+  x : 943px;
+  y : 512px;
+  float: right;
+}
+
+
 
 h1 {
    /* Default font, size, and margins */
