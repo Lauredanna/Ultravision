@@ -19,14 +19,9 @@ p, li, textarea, label, input, select {
   font-family: Poppins;
   font-size: 88px;
   font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #FDFEFE;
 }
-
 
 
 .header-title {
@@ -52,6 +47,7 @@ p, li, textarea, label, input, select {
 
   }
 
+
 .header-stripe--red {
   height: 32px;
   background-color: #e02020bd;
@@ -74,6 +70,22 @@ p, li, textarea, label, input, select {
     width: 1440px;
 }
 
+.sub-title {
+  text-align: center;
+  color: #231f20;
+  width: 993px;
+ height: 56px;
+ margin: 64px 216px 64px 229px;
+ font-family: Poppins;
+ font-size: 40px;
+  font-weight: 900;
+}
+
+.colonne1{
+column-count: 2;
+-moz-column-count: 2;
+-webkit-column-count: 2;
+}
 
 h1 {
    /* Default font, size, and margins */
@@ -84,11 +96,16 @@ h2 {
 }
 
 h3 {
-  /* Default font, size, and margins */
 }
 
 h4 {
-  /* Default font, size, and margins */
+  width: 640px;
+  height: 33px;
+  margin: 0 31px 34px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center; font, size,
 }
 
 h5 {
