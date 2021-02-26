@@ -111,16 +111,35 @@ margin: 32px 14px 32px 32px;
  font-weight: bold;
 font-size: 20px;}
 
+.learn-more1{
+  font-size: 20px;
+ font-weight: bold;
+ color: #fcce00;
+text-align: right; }
+
+.learn-more2 {
+  font-size: 20px;
+ font-weight: bold;
+ color:#ff6b00;
+text-align: right; }
+
 .rouge {
-    background-image: url(../img/bg-red.png);
+  background-image: url(../img/bg-red.png);
+  font-size: 24px;
+  color: white;
+  text-align: left;
 }
 
 .violet {
   background-image: url(../img/bg-violet.png);
+  font-size: 24px;
+  color: white;
 }
 
 .blue {
-    background-image: url(../img/bg-blue.png);
+  background-image: url(../img/bg-blue.png);
+  font-size: 24px;
+  color: white;
 }
 .image1 {
     mix-blend-mode: darken;
@@ -139,6 +158,11 @@ h2 {
 }
 
 h3 {
+  margin: 0 31px 34px 0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
 }
 
 h4 {
@@ -146,7 +170,7 @@ h4 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 h5 {
